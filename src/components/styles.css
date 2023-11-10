@@ -1,0 +1,89 @@
+/* Light Mode */
+.light-mode {
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #333; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CSS for the content section */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Adjust as needed */
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Additional CSS for the content text */
+.content-text {
+    margin-left: 20px; /* Add spacing between image and text */
+}
+.cv-button {
+    background-color: #007BFF; /* Change button background color */
+    color: #fff; /* Change button text color */
+    padding: 10px 20px; /* Adjust button padding */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+.cv-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+.login-button {
+    background-color: #28a745; /* Change button background color */
+    color: #fff; /* Change button text color */
+    padding: 10px 20px; /* Adjust button padding */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.login-button:hover {
+    background-color: #218838; /* Change button background color on hover */
+}

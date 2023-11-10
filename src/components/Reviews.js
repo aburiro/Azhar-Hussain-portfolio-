@@ -3,22 +3,23 @@
 import React from 'react';
 
 // BuyerReview component as an arrow function
-const BuyerReview = () => {
+  const BuyerReview = () => {
   return (
-    <div className="buyer-review">
-      <h3>Buyer Review</h3>
-      <p>This is a review from a satisfied buyer.</p>
-    </div>
+      <>
+      <h1> Buyer Review </h1> 
+      
+      </>
+      
   );
 };
 
 // SellerReview component as an arrow function
-const SellerReview = () => {
+ const SellerReview = () => {
   return (
-    <div className="seller-review">
+    <>
       <h3>Seller Review</h3>
-      <p>This is a review from a happy seller.</p>
-    </div>
+      
+    </>
   );
 };
 
