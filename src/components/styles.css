@@ -9,7 +9,7 @@
     background-color: #333; /* Dark background color */
     color: #f0f0f0; /* Light text color */
 }
-header {
+.header {
     background-color: #333;
     color: #fff;
     display: flex;
@@ -86,4 +86,7 @@ nav ul li a {
 
 .login-button:hover {
     background-color: #218838; /* Change button background color on hover */
+}
+.container-interpage{
+    display: flex; margin: auto;
 }
